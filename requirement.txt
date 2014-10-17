@@ -1,0 +1,34 @@
+General Information:
+
+This Date & Time picker is part of a larger back office that will be used to run surveys with. This back office is based on a back office someone designed on top of Bootstrap 3. If you need more information about the setup, please ask the developer questions (I will include his name and email address).The user needs to be able to set a start and end date (& time) for the survey to start and end.
+
+As part of a 'build-your-survey' wizard the user does this through the 'Launch Date & Time' area in the wizard.
+
+The time will be entered manually. The 'am'/'pm' choice is made through a drop down list in the am/pm field.
+
+The start date is set by the user choosing a date and clicking this in the left calendar. Once clicked this date will have the orange background. I am just realizing now that you will need the colorcodes used and I will ask the designer for this information.
+
+Then the user chooses the end date of the survey. This can be a date that is later in the same month or a date later in the same month. 
+if the user tries to and click on a date before the start date, then he will find that date is simply not clickable and those dates are a lighter color of grey, indicating they cannot be chosen.
+
+Once the user clicks the end date, the field will be a darker grey indicating it has been picked. If the user wants to change this he can still pick another date as well. 
+
+If the end date is within the same month, this will mean that the dates that will have an orange background will appear all the way from the start date to the end date in the both calendars. If someone changes the start date on the left then this will change on the right calendar as well.
+
+If the start and end date are in different months then the orange background will start in the left calendar at the start date and end in the right calendar at the end date. Surveys are usually never run more than 30 days, so the the calendars on the left and the right will never be more than one month apart.
+
+When the user clicks on a date in the calendar (start or end date) then at that moment the date will be shown in the date field (behind the word 'on') in the format MM/DD/YYYY. The date in this field will also be used to go to the database.
+
++++++++++++++++++++++++++++++++++++++++++++++++++++++
+
+We need this build in a way that will ensure elegant display on all devices (responsive).
+
+For technical details please contact Harry Smid at harry@netfactor.nl
+
+For questions about functionality, please contact me.
+
+
+Thanks Jerry,
+
+
+Patrick Lentz

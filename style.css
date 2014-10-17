@@ -1,0 +1,168 @@
+.survey-datepicker .datepicker-hours{
+	float: left;
+	width: 35px;
+	margin-right: 5px;
+}
+.survey-datepicker .datepicker-mins{
+	float: left;
+	width: 35px;
+	margin-right: 10px;
+}
+.survey-datepicker .datepicker-ap{
+	float: left;
+	width: 55px;
+	margin-right: 10px;
+}
+.survey-datepicker .datepicker-colon{
+	float: left;
+	width: 10px;
+	font-weight: bold;
+	padding-top: 5px;
+}
+
+.survey-datepicker .datepicker-date{
+	float: left;
+	width: 150px;
+}
+
+.survey-datepicker .datepicker-date input{
+	float: left;
+	width: 120px; 
+}
+
+.survey-datepicker.panel-primary,
+.survey-datepicker .panel-primary{
+	border:none;
+	border-radius: 0;
+}
+.survey-datepicker.panel-primary >.panel-heading{
+	background-color: #555;
+	border: none;
+	border-radius: 0;
+}
+
+.survey-datepicker .on-label{
+	float: left;
+	display: block;
+	padding-top: 6px;
+	padding-right: 8px;
+}
+.survey-datepicker input,.survey-datepicker select{
+	padding-left:5px;
+	padding-right: 5px;
+	text-align: center;
+}
+.text-rotate{
+	position:absolute; 
+	left:10; 
+	top : 117px;
+	-webkit-transform: rotate(-90deg);
+	-moz-transform:  rotate(-90deg);
+	-o-transform:  rotate(90deg);
+	writing-mode: tb-rl;
+	font-weight: bold;
+	font-size: 15px;
+}
+.end-text .text-rotate{
+	left : 20px;
+}
+
+.survey-datepicker .calendar-left table>thead>tr>th,
+.survey-datepicker .calendar-right table>thead>tr>th{
+	font-size: 12px;
+}
+
+.start-text,.end-text{
+	width: 40px;
+	height: 100px;
+	float: left;
+	color: #555;
+}
+
+.calendar-left,.calendar-right{
+	float: left;
+	width: 265px;
+}
+
+.calendar-left h4,.calendar-right h4{
+	margin: 0;
+	color: #fff;
+}
+
+.calendar-left h4 i,.calendar-right h4 i{
+	cursor: pointer;
+}
+
+.calendar-left h4 i,.calendar-right h4 i{
+	cursor: pointer;
+}
+
+.calendar-left .panel-heading,.calendar-right .panel-heading{
+	background-color: #46CCCB;
+	border-radius: 0;
+	border-color: transparent;
+}
+
+.margin-top15{
+	margin-top: 15px;
+}
+
+
+.calendar-left h4,.calendar-right h4{
+	margin: 0;
+}
+
+.survey-datepicker table>thead>tr>th{
+	border-bottom:1px solid #ddd;
+	color: #888;
+}
+
+.survey-datepicker .calendar-left .panel-body,
+.survey-datepicker .calendar-right .panel-body{
+	padding: 0;
+	background-color: #e4e4e4;
+}
+
+.survey-datepicker .calendar-left .panel-body .single-day,
+.survey-datepicker .calendar-right .panel-body .single-day{
+	cursor: pointer;
+    color: #252a2f;
+}
+
+.survey-datepicker .calendar-left .panel-body .single-day:hover,
+.survey-datepicker .calendar-right .panel-body .single-day:hover{
+	background-color: #888;
+}
+.survey-datepicker table>thead>tr>th,
+.survey-datepicker table>tbody>tr>td{
+	padding : 7px;
+	text-align: center;
+}
+
+.survey-datepicker>.panel-body{
+	background-color: #eee;
+	padding: 0;
+}
+
+.selected-date-start{
+	background-color: #fe812f!important;
+}
+
+.selected-date-end{
+	background-color: #555!important;
+}
+
+.disabled-date{
+    color: #9e9e9e;
+}
+
+.survey-datepicker input,
+.survey-datepicker input[readonly],
+.survey-datepicker select{
+	background-color: #DBDBDB;
+	border-radius: 0;
+}
+
+.survey-calendar{
+	height: 425px;
+}
